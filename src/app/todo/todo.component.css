@@ -67,8 +67,8 @@ button:hover {
   height: auto;
   background-color: rgb(226, 196, 141);
   border-left: 40px solid rgb(255, 234, 206);
-  margin-bottom: 10px;
-  padding-bottom: 70sssssssssspx;
+  margin-bottom: 20px;
+  padding-bottom: 100px;
   padding: 30px;
   color: rgb(0, 0, 0);
 }
@@ -99,7 +99,8 @@ button:hover {
 
 .box button img {
   display: block;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   justify-content: center;
 }
 

@@ -90,6 +90,7 @@ button:hover {
   font: 8px;
 }
 .box button {
+  margin-top: 2px;
   margin-right: 15px;
   margin-bottom: 20px;
   float: right;

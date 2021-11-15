@@ -1,0 +1,67 @@
+<section>
+  <form #formsung="ngForm">
+    <img src="{{ logo }}" alt="" class="logo" />
+    <br />
+    <h1>School Works</h1>
+    <br />
+    <p>
+      Task Name:
+      <input
+        class="textbox"
+        type="text"
+        [(ngModel)]="namesung"
+        name="name"
+        placeholder="Enter the Task Name..."
+        id="name"
+      />
+    </p>
+    <p>
+      Description:
+      <input
+        class="textbox"
+        type="text"
+        [(ngModel)]="descsung"
+        name="desc"
+        placeholder="Enter the description..."
+      />
+    </p>
+    <p>
+      Type:
+      <select class="textbox" id="select" [(ngModel)]="typesung" name="type">
+        <option value="ACTIVITY">Activity</option>
+        <option value="ASSIGNMENT">Assignment</option>
+        <option value="EXAM">Exam</option>
+        <option value="QUIZ">Quiz</option>
+      </select>
+    </p>
+    <button (click)="addItem(formsung.value)" class="addButton">
+      <img src="{{ addLogo }}" alt="" />
+    </button>
+  </form>
+
+  <br /><br />
+
+  <div class="box" *ngFor="let x of nameOfOA; let id = index">
+    <div class="data">
+      <img src="{{ todoLogo }}" alt="" class="todoLogo" />
+      <h1 id="{{ id }}">{{ x.name }}</h1>
+      <p class="italic">
+        {{ x.type }}
+      </p>
+      <p class="descStyle">
+        {{ x.desc }}
+      </p>
+    </div>
+    <button class="button" (click)="remove(id)">
+      <img src="{{ removeLogo }}" alt="" />
+    </button>
+    <button class="button" (click)="undone(id)">
+      <img src="{{ undoneLogo }}" alt="" />
+    </button>
+    <button class="button" (click)="done(id)">
+      <img src="{{ doneLogo }}" alt="" />
+    </button>
+  </div>
+</section>
+
+<!--  -->

@@ -44,10 +44,12 @@ form select {
 }
 
 form button {
+  height: 6%;
+  width: 20%;
   margin-top: 20px;
-  margin-left: 46%;
+  margin-left: 41%;
   margin-right: 4%;
-  border-radius: 5%;
+  border-radius: 13%;
   border: none;
 }
 

@@ -16,8 +16,6 @@ export class TodoComponent implements OnInit {
   doneLogo = 'https://cdn-icons-png.flaticon.com/128/60/60516.png';
   undoneLogo = 'https://cdn-icons-png.flaticon.com/128/66/66758.png';
   removeLogo = 'https://cdn-icons-png.flaticon.com/128/1214/1214428.png';
-  addLogo =
-    'https://cdn-icons.flaticon.com/png/128/2997/premium/2997933.png?token=exp=1636869253~hmac=8b0a29b46046caeedd4c6f4a13ffa6b0';
   todoLogo = 'https://cdn-icons-png.flaticon.com/128/4552/4552699.png';
   ngOnInit(): void {}
 

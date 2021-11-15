@@ -75,15 +75,15 @@ button:hover {
 }
 
 .box .data p {
-  margin-top: 5px;
+  margin-top: 2px;
 }
 .box .data .italic {
-  font-size: 15px;
+  font-size: 10px;
   font-style: italic;
 }
 
 .box .data .descStyle {
-  font: 15px;
+  font: 8px;
 }
 .box button {
   margin-left: 10px;

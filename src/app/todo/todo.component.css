@@ -95,14 +95,13 @@ button:hover {
 
 .box button img {
   display: block;
-  margin: 100px, 80px, 80px, 80px;
   width: 20px;
   justify-content: center;
 }
 
 .box .data .todoLogo {
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
 }
 
 button:hover {

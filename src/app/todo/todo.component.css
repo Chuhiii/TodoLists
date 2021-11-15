@@ -1,5 +1,5 @@
 section {
-  background-image: url('https://images.pexels.com/photos/7903173/pexels-photo-7903173.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-image: url('https://wallpapercave.com/wp/wp5698864.jpg');
   background-attachment: fixed;
   background-size: 100% 100%;
   margin: auto;
@@ -52,7 +52,6 @@ form button {
   margin-left: 41%;
   margin-right: 4%;
   border-radius: 13%;
-  border: none;
 }
 
 button:hover {
